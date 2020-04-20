@@ -6,6 +6,7 @@ use {
     slog::{Logger, warn}
 };
 
+#[derive(Clone, Copy)]
 pub struct Signal {
     running: Arc<AtomicBool>
 }
