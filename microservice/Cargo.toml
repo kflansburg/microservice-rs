@@ -1,0 +1,15 @@
+[package]
+name = "microservice"
+version = "0.1.0"
+authors = ["Kevin Flansburg <kevin.flansburg@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+microservice-macro = { version = "*", path = "../microservice-macro" }
+slog = "*"
+slog-async = "*"
+slog-term = "*"
+slog-json = "*"
+serde = { version = "*", features = ['derive'] }
+ctrlc = { version = "*", features = ['termination'] }
+config = "*"

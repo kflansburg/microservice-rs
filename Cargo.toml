@@ -1,0 +1,6 @@
+[workspace]
+
+members = [ 
+  'microservice-macro',
+  'microservice'
+]
